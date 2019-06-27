@@ -1,7 +1,11 @@
 const express = require('express');
 const server = express();
 
+const dishRoutes = require('./routes/dish/dish');
+
 server.use(express.json());
+
+server.use('/api/dish', dishRoutes);
 
 const port = process.env.PORT || 5000;
 
