@@ -1,0 +1,26 @@
+{
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verydecent/webdb-iv-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verydecent/webdb-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/verydecent/webdb-iv-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.18.0",
+    "sqlite3": "^4.0.9"
+  }
+}
