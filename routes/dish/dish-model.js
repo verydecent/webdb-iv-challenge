@@ -1,4 +1,4 @@
-const db = require('../../database/data');
+const db = require('../../knex');
 
 module.exports = {
   getDishes,
