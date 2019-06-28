@@ -2,8 +2,8 @@ const express = require('express');
 const server = express();
 const helmet = require('helmet');
 
-const dishRoutes = require('./routes/dish/dish');
-const recipeRoutes = require('./routes/recipe/recipe');
+const dishRoutes = require('./routes/dish/dish-router');
+const recipeRoutes = require('./routes/recipe/recipe-router');
 
 server.use(express.json());
 server.use(helmet());
